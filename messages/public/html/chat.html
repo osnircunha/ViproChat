@@ -1,0 +1,18 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <users-list class="navbar-brand"></users-list>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <li class="chat page">
+        <div class="chatArea">
+            <ul class="messages"></ul>
+        </div>
+    </li>
+</div>
+<div class="typing"></div>
+<form class="navbar navbar-default navbar-fixed-bottom" ng-submit="sendMessage()">
+    <input ng-model="message" class="inputMessage" placeholder="Type here..."/>
+</form>
